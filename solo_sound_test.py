@@ -21,9 +21,3 @@ time.sleep(2)
 amp.volume = 50
 voice_channel.play(voice_sound)
 time.sleep(3)
-
-print("Nous allons maintenant baisser le volume.")
-time.sleep(2)
-amp.volume = 14
-voice_channel.play(voice_sound)
-time.sleep(4)

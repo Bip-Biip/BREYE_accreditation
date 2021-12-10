@@ -17,5 +17,5 @@ while True :
 	if uid is None :
 		pass
 	else :
-		print("Le jeton", pn532.ntag2xx_read_block(0), "a été détectée")
+		print("Le jeton", pn532.ntag2xx_read_block(0), "a été détecté.")
 		break

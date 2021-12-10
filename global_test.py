@@ -143,7 +143,7 @@ while True :
 	if uid is None :
 		pass
 	else :
-		print("La tuile", pn532.ntag2xx_read_block(0), "a été détectée")
+		print("Le jeton", pn532.ntag2xx_read_block(0), "a été détecté.")
 		break
 
 print("Bien, nous allons maintenant tester le détecteur d'empreinte.")
@@ -164,11 +164,5 @@ time.sleep(2)
 amp.volume = 50
 voice_channel.play(voice_sound)
 time.sleep(3)
-
-print("Nous allons maintenant baisser le volume.")
-time.sleep(2)
-amp.volume = 14
-voice_channel.play(voice_sound)
-time.sleep(4)
 
 print("C'est bon, nous avons testé tous les périphériques, cette machine est fonctionnelle.")
