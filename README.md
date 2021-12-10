@@ -31,3 +31,5 @@ Ouvrons le fichier */boot/config.txt* et vérifions la ligne *enable_uart*.
 Si nous avons `enable_uart=0` remplaçons-là par `enable_uart=1`
 
 Enfin, redémarrons la Raspberry.
+
+PS : ne pas oublier d'autoriser VNC pour la connexion à distance.
