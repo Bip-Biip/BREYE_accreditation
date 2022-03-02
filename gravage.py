@@ -133,6 +133,7 @@ def engraving(entier:int) :
 	print("Vous avez choisi de graver la lettre ci-dessus")
 	print("Appuyez sur n'importe quel bouton pour interrompre")
 
+	global buttonflag
 	buttonflag = True
 	previous_uid = None
 	while buttonflag :
