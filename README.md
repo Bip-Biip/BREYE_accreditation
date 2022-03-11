@@ -11,12 +11,12 @@ Commençons par installer le text to speech ainsi que les principales bibliothè
 Pour cela, exécutons dans le terminal les commandes suivantes :
 
 ```
-sudo apt-get install espeak
 sudo apt-get install python3-rpi.gpio
 sudo pip3 install adafruit-circuitpython-fingerprint
 sudo pip3 install adafruit-circuitpython-max9744
 sudo pip3 install adafruit-circuitpython-pn532
 sudo pip3 install pygame
+sudo pip3 install getmac
 ```
 
 Une fois ceci fait, il faut configurer correctement la Raspberry.
