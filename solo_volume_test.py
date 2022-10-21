@@ -15,6 +15,7 @@ voice_sound = pygame.mixer.Sound('music.mp3')
 voice_channel.play(voice_sound)
 
 for i in range(30):
+    print(tpa.fixed_gain)
     if growing:
         if tpa.fixed_gain < 30:
             tpa.fixed_gain += 1
