@@ -9,6 +9,7 @@ tpa = adafruit_tpa2016.TPA2016(i2c)
 tpa.fixed_gain = -28
 
 pygame.mixer.init()
+pygame.mixer.set_num_channels(60)
 voice_sound = pygame.mixer.Sound('music.wav')
 
 for i in range(60):
